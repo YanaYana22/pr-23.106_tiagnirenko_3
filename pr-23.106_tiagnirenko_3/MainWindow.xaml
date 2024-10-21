@@ -1,0 +1,21 @@
+﻿<Window x:Class="pr_23._106_tiagnirenko_3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:pr_23._106_tiagnirenko_3"
+        mc:Ignorable="d"
+        Title="Тягниренко Вариант 3" Height="400" Width="400">
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="32,23,0,0" TextWrapping="Wrap" Text="Введите N:" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="32,87,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Text="Введите "/><Run Language="ru-ru" Text="нижнюю"/><Run Text=" границу"/><Run Text=" диапазон"/><Run Text="а"/><Run Text=":"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="32,154,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Text="Введите"/><Run Text=" верхнюю границу"/><Run Text=" диапазон"/><Run Language="ru-ru" Text="а"/><Run Text=":"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="32,292,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Language="ru-ru" Text="Отсортированный массив"/><Run Text=":"/></TextBlock>
+        <TextBox HorizontalAlignment="Left" Margin="31,53,0,0" TextWrapping="Wrap" Text="" Name="NTextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Margin="32,117,0,0" TextWrapping="Wrap" Text="" Name="MinRangeTextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Margin="32,187,0,0" TextWrapping="Wrap" Text="" Name="MaxRangeTextBox" VerticalAlignment="Top" Width="120"/>
+        <Button Content="СГЕНЕРИРОВАТЬ" Name="GenerateAndSort" HorizontalAlignment="Left" Margin="32,224,0,0" VerticalAlignment="Top" Height="44" Width="151" Click="GenerateAndSortButton_Click"/>
+        <TextBox HorizontalAlignment="Left" Margin="32,313,0,0" TextWrapping="Wrap" Text="" x:Name="ResultTextBox" VerticalAlignment="Top" Width="303"/>
+
+    </Grid>
+</Window>
